@@ -16,11 +16,11 @@ console.log(myArray);
 
 //? Propiedades y métodos de los arrays
 
+myArray.unshift(0); // Añade un elemento al principio del array
 myArray.push(6); // Añade un elemento al final del array
-myArray.pop(); // Elimina el último elemento del array y lo devuelve
 
 myArray.shift(); // Elimina el primer elemento del array y lo devuelve
-myArray.unshift(0); // Añade un elemento al principio del array
+myArray.pop(); // Elimina el último elemento del array y lo devuelve
 
 myArray.length; // 5
 myArray.clear(); // Elimina todos los elementos del array
