@@ -104,6 +104,38 @@
 
 //* 6. Crea una función que reciba dos arrays y devuelva un nuevo array que contenga los elementos comunes entre ambos
 
+// let array1 = [
+//   "Mati",
+//   "Paola",
+//   "Nico",
+//   "Mariana",
+//   "Ezequiel",
+//   "Ricardo",
+//   "Ricky",
+// ];
+// let array2 = ["Mati", "Pepe", "Carlos", "Nico", "Paola", "Ricky"];
+// let newArray = [];
+
+// function copies() {
+//   if (array1.length < array2.length) {
+//     for (let i = 0; i < array1.length; i++) {
+//       if (array2.includes(array1[i])) {
+//         newArray.push(array1[i]);
+//       }
+//     }
+//   } else {
+//     for (let i = 0; i < array2.length; i++) {
+//       if (array1.includes(array2[i])) {
+//         newArray.push(array2[i]);
+//       }
+//     }
+//   }
+// }
+
+// copies();
+
+// console.log(newArray);
+
 //* 7. Crea una función que reciba un array de números y devuelva la suma de todos los números pares
 
 //* 8. Crea una función que reciba un array de números y devuelva un nuevo array con cada número elevado al cuadrado
