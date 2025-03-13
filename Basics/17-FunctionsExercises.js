@@ -168,6 +168,50 @@
 
 //* 9. Crea una función que reciba una cadena de texto y devuelva la misma cadena con las palabras en orden inverso
 
+// let array = ["Hola", "Paola", "Ola", "Cacerola", "Bola"];
+// let newArray = [""];
+
+// function invert(array = []) {
+//   for (let i = 0; i < array.length; i++) {
+//     newArray[i] = array[i].split("").reverse().join("");
+//   }
+
+//   return newArray;
+// }
+
+// newArray = invert(array);
+// console.log(newArray);
+
 //* 10. Crea una función que calcule el factorial de un número dado
 
+// function factorial(x = 0) {
+//   let factorial = 0;
+
+//   if (x == 0 || x == 1) {
+//     return (factorial = 1);
+//   }
+
+//   factorial = x * (x - 1);
+//   x--;
+
+//   for (let i = 0; i < x - 1; x--) {
+//     factorial *= x - 1;
+//   }
+
+//   return factorial;
+// }
+
+// console.log(factorial(10));
+
 //? 11. Crea una función que reciba un array de números y devuelva un nuevo array con los números en orden inverso
+
+// let numbers = [10, 9, 8, 7, 6, 5, 4, 3, 2, 1];
+// let inverted = [];
+
+// function invertNumbers(n = [0]) {
+//   inverted = n.reverse();
+
+//   return inverted;
+// }
+
+// console.log(invertNumbers(numbers));
