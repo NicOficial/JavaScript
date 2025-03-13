@@ -138,7 +138,33 @@
 
 //* 7. Crea una función que reciba un array de números y devuelva la suma de todos los números pares
 
+// let total = 0;
+// let array = [5, 10, 8, 9, 23, 16, 41];
+
+// function sum() {
+//   for (let i = 0; i < array.length; i++) {
+//     if (array[i] % 2 == 0) {
+//       total += array[i];
+//     }
+//   }
+//   return total;
+// }
+
+// console.log(sum());
+
 //* 8. Crea una función que reciba un array de números y devuelva un nuevo array con cada número elevado al cuadrado
+
+// let array = [3, 10, 2, 4, 5, 1];
+// let newArray = [];
+
+// function square() {
+//   for (let i = 0; i < array.length; i++) {
+//     newArray[i] = array[i] * array[i];
+//   }
+//   return newArray;
+// }
+
+// console.log(square());
 
 //* 9. Crea una función que reciba una cadena de texto y devuelva la misma cadena con las palabras en orden inverso
 
